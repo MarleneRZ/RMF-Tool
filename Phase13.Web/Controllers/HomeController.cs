@@ -15,14 +15,14 @@ namespace Phase13.Web.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The RMF Tool";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "SEC RMF Tool - Headquarters";
 
             return View();
         }
