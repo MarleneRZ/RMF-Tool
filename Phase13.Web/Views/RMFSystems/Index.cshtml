@@ -1,0 +1,93 @@
+﻿@model IEnumerable<RMF.Entities.RMFSystem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.User.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SystemName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Confidentiality)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Integrity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Availability)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssessmentStartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssessmentEndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssessmentPriority)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StateId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.State)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssessmentStatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SystemName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Confidentiality)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Integrity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Availability)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AssessmentStartDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AssessmentEndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AssessmentPriority)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StateId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.State)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AssessmentStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

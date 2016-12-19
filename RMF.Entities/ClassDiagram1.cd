@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RMF.Entities.Artifact" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAAgAAAIAAAAAAAAQAAAAgAAAAAAAAAQAAA=</HashCode>
+      <FileName>Artifact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.Control" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAggAAQAAAQAAAAACAAAAQAAAAAAABAAUAgAAAA=</HashCode>
+      <FileName>Control.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.ControlItem" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAgQAAAAAAAAAAAAAAAAAAAAAAIAAAAEAA=</HashCode>
+      <FileName>ControlItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.FamilyControl" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FamilyControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.FileTemplate" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAA=</HashCode>
+      <FileName>FileTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.Organization" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Organization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.Package" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAACAAAAAAAAAAAAAACAgAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Package.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.POAM" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAABAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>POAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.POAMItem" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgGAAAAAAAAAACAAAAAAAAQAAAAAAD4AAAQIgA=</HashCode>
+      <FileName>POAMItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.RMFSystem" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAADAAAAQAAAAAAAAAABAAgAAAEAgAAAAhAIBQAAAAA=</HashCode>
+      <FileName>RMFSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.SAP" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACQAAAAAAIAAAAAAAQQAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>SAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.SystemControl" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGAAAAAAAAAAAAQAAAAAAAAAAQAAAIAAAQAgA=</HashCode>
+      <FileName>SystemControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RMF.Entities.User" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAAAAAAAAAAAAAAYAACAAAAAAAAAAAIAg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RMF.Entities.ApprovalResult" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApprovalResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RMF.Entities.ArtifactStatus" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ArtifactStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RMF.Entities.AssessmentStatus" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAIABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AssessmentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RMF.Entities.Categorization" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Categorization.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RMF.Entities.State" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RMF.Entities.UserRole" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACAQMAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserRole.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

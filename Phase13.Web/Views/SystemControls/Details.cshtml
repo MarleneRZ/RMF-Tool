@@ -1,0 +1,58 @@
+﻿@model RMF.Entities.SystemControl
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SystemControl</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Control.ControlName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Control.ControlName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RMFSystem.SystemName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RMFSystem.SystemName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FindingResultDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FindingResultDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FindingRecommendation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FindingRecommendation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FindingStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FindingStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

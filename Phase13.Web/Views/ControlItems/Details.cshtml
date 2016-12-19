@@ -1,0 +1,50 @@
+﻿@model RMF.Entities.ControlItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ControlItem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Control.ControlCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Control.ControlCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControlItemCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControlItemCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AssessmentObjective)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssessmentObjective)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

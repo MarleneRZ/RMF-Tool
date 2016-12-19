@@ -1,0 +1,75 @@
+﻿@model IEnumerable<RMF.Entities.Control>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FamilyControl.FamilyName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ControlCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ControlName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ControlPriority)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ControlBaselineLow)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ControlBaselineModerate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ControlBaselineHigh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ControlDescription)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FamilyControl.FamilyName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ControlCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ControlName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ControlPriority)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ControlBaselineLow)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ControlBaselineModerate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ControlBaselineHigh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ControlDescription)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,82 @@
+﻿@model RMF.Entities.Control
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Control</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FamilyControl.FamilyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FamilyControl.FamilyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControlCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControlCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControlName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControlName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControlPriority)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControlPriority)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControlBaselineLow)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControlBaselineLow)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControlBaselineModerate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControlBaselineModerate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControlBaselineHigh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControlBaselineHigh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControlDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControlDescription)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
